@@ -1,0 +1,118 @@
+.body {
+    background-color: #e0e7f1;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.detail {
+    background-color: #ffffff;
+    flex: 2;
+}
+
+.login {
+    background-color: rgb(255, 255, 255);
+    flex: 2;
+    margin: 0;
+}
+
+.fb-logo {
+    width: 350px;
+    height: auto;
+    margin: 220px auto auto 180px;
+}
+
+.des {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 220px;
+    margin-top: -10px;
+}
+
+.credentials {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-top: 170px;
+    border-radius: 10px;
+    box-shadow: -3px 5px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    padding-top: 10px;
+}
+
+#email {
+    width: 450px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+#password {
+    width: 450px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.submit {
+    width: 450px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-left: 25px;
+    background-color: #1877f2;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+::placeholder {
+    font-size: 20px;
+    padding: 15px;
+    color: rgb(168, 167, 167);
+}
+
+.forgot {
+    text-decoration: none;
+    margin-left: 170px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#new-account {
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 25px;
+    background-color: #42b72a;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #1877f2;
+    width: 100vw;
+}
