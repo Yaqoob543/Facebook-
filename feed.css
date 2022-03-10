@@ -1,0 +1,85 @@
+/* CSS Of Feed.html Start */
+
+.body2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1877f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex: 1;
+    background-color: #42b72a;
+    display: flex;
+    flex-direction: row;
+}
+
+.search {
+    flex: 3;
+    background-color: aliceblue;
+}
+
+.fb-icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+input[type=text] {
+    color: #1877f2;
+    border: 1px solid saddlebrown;
+    border-radius: 50px;
+    border: 1px solid gray;
+    width: 300px;
+    height: 34px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-image: url("/images/magnifying-glass-solid.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px;
+    opacity: 0.3;
+}
+
+::placeholder {
+    color: black;
+    font-size: large;
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 8px;
+}
+
+.feature-button {
+    flex: 6;
+    background-color: blueviolet;
+}
+
+.noti {
+    flex: 3;
+    background-color: cadetblue;
+}
+
+.main {
+    flex: 12;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+
+.person {
+    flex: 2;
+    background-color: rgb(255, 50, 50);
+}
+
+.feed {
+    flex: 6;
+    background-color: darkcyan;
+}
+
+.chats {
+    flex: 2;
+    background-color: tan;
+}

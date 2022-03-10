@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .body {
     background-color: #e0e7f1;
     width: 100vw;
@@ -5,6 +11,46 @@
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column-reverse;
+}
+
+.part1 {
+    flex: 2;
+    background-color: #ffffff;
+}
+
+.footer {
+    justify-content: center;
+    background-color: #ffffff;
+    color: darkgrey;
+}
+
+.footer2 {
+    margin-left: 320px;
+    color: darkgrey;
+    margin-top: -40px;
+}
+
+ul {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+}
+
+ul li {
+    padding: 20px;
+    background-color: white;
+}
+
+.part2 {
+    flex: 9;
+    display: flex;
+}
+
+.part-1-line {
+    margin: 10px auto 10px auto;
+    width: 1220px;
+    background-color: rgba(128, 128, 128, 0.2);
 }
 
 .detail {
@@ -76,6 +122,11 @@ form {
     font-weight: 600;
 }
 
+.submit a {
+    color: white;
+    text-decoration: none;
+}
+
 ::placeholder {
     font-size: 20px;
     padding: 15px;
@@ -95,6 +146,7 @@ form {
 
 hr {
     width: 450px;
+    margin: 10px auto 10px auto;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -112,7 +164,16 @@ hr {
     font-weight: 600;
 }
 
-.footer {
-    background-color: #1877f2;
-    width: 100vw;
+.page p {
+    position: absolute;
+    margin: 20px auto auto 160px;
+    font-size: large;
 }
+
+.page b:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* Css of Index.html Close */
